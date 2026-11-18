@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MarketPro</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<h1>MarketPro</h1>
+<p>Belanja Mudah dan Murah</p>
+</header>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#produk">Produk</a>
+<a href="#kontak">Kontak</a>
+</nav>
+
+<section class="banner" id="home">
+<h2>Selamat Datang!</h2>
+<p>Temukan produk terbaik untuk Anda.</p>
+<button onclick="keProduk()">Belanja Sekarang</button>
+</section>
+
+<h2 class="judul" id="produk">Produk Kami</h2>
+
+<div class="produk">
+<div class="card">
+<h3>Sepatu Sport</h3>
+<p>Rp150.000</p>
+<button onclick="beli('Sepatu Sport',150000)">Beli</button>
+</div>
+
+<div class="card">
+<h3>Tas Fashion</h3>
+<p>Rp120.000</p>
+<button onclick="beli('Tas Fashion',120000)">Beli</button>
+</div>
+</div>
+
+<section id="kontak">
+<h2>Hubungi Kami</h2>
+<p>Pesan produk melalui WhatsApp.</p>
+</section>
+
+<footer>
+<p>© 2026 MarketPro</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
